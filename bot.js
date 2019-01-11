@@ -343,16 +343,6 @@ client.on('message', message => {
     }
 });
 
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`1play | Last Music`,"http://twitch.tv/Death Shop")
-client.user.setStatus("dnd")
-});
 
 const developers = ["440578157712769024","470741738219372545"]
 client.on('message', message => {
