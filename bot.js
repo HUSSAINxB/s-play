@@ -22,7 +22,7 @@ const client = new Discord.Client({disableEveryone: true});
 
 const prefix = "s!";
 
-var adminprefix = 's$'
+var adminprefix = 's!'
 
 /////////////////////////
 ////////////////////////
